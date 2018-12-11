@@ -1,28 +1,29 @@
-# 2.3 C-Techs (chromosome conformation capture)-coupled 
-1. [Introduction](#231)
-2. [Overivew of 3C methods](#232)<br>
-    2.1. [Specificity](#2321)<br>
-    2.2. [Through-put and resolution](#2322)
-3. [Hi-C](#233)
-4. [ChIA-PET](#234)
-5. [Selected methods comparison](#235)
+# Precision Medicine 
+1. [Introduction](#1)
+2. [Pharmacogenomics](#2)<br>
+3. [Precision Medicine in Cancer](#3)
+4. [RNA Detection and Quantification Technologies](#4)
+    4.1. [Northern Blot](#41)<br>
+    4.2. [RT-qPCR](#42)<br>
+    4.3. [Hybridization based microarrays](#43)<br>
+    4.4. [RNA-seq](#44)<br>
+5. [Gene Expression Assays in Medicine](#5)
 
 
 
+## Introduction<a name="1"></a>
 
-## 2.3.1 Introduction<a name="231"></a>
+Precision medicine is defined as the act of tailoring medical treatment such that it takes into consideration the individual characteristics of each patient's case [1]. Traditionally, medicine has been practiced with a "one fits all" approach, where the same standard tests and common drugs are used to treat the same phenotypically-appearing symptoms. This new approach of precision medicine looks beyond phenotype by gathering a genetic understanding of the individual's disease and applying it to how health care is delivered to the patient.
 
-The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
+To gather a genetic understanding of a patient's disease, various types of data are taken into consideration. This includes the patient's genetic/health history, their response to the disease, and their lifestyle. Each of these factors are significant in understanding how the patient's disease may have developed as well as how it can currently be characterized.
 
-To capture the interaction (crosslink between strings), there are few steps in general:
-- Take a snapshot of the flowing cells - **Crosslink** with fixative agent (formaldehyde)
-- Zoom in on crosslinked part and exclude untangled parts - **Digested** with a restriction enzyme
-- Analyze the components come from the same chromatin - **Reverse crosslink** and **sequence**
-- Finish the jigsaw puzzle and get the results - **Align** the reads and **summarize** the contacts
+> FAQ: What is the difference between "precison" medicine and "personalized" medicine? "Personalized" was used initially, but this term gave rise to the concern that it would be misinterpreted as using an approach that is unique to _each_ person. However, the idea is not that an individual receives their very own unique treatment; the idea is that targeted therapies are developed based on molecular diagnostics. "Personalized" medicine refers to the practice of handling a patient's care hollistically, while "precision" medicine refers to the science of creating evidence-based medicine [2].
 
-> Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods. 
+## Pharmacogenomics<a name="2"></a>
 
-## 2.3.2 Overivew of 3C methods<a name="232"></a>
+The process of delivering precision medicine does not end when a targeted therapeutic drug is developed. It must continue with ensuring if the patient will respond well and effectively to it. This gives way to an integral field of precision medicine - pharmacogenomics. Pharmacogenomics is the study of how genes and genetic variations affect a patient's response to therapeutic drug treatment [3]. This involves taking a hollistic approach in drug design to minimize chances of adverse health effects because knowing a patient's genetic makeup can help with predicting the outcome of certain therapies. Pharmacogenomics allows scientists and doctors to address questions such as: will the drug optimally target the abnormality that needs fixing? Will it induce any negative side effects known to occur in the patient? Will it potentially cause further complications due to other genetic factors that must be considered for this patient?
+
+Research has been and is currently being done to further scientists' knowledge on how genetic variations can affect the human body's response to medications. For instance, the Human Genome Project is working towards combining sequencing information gathered from many genomes with current knowledge on gene functions to enhance drug discovery by understanding why particular genotypes found in these genomes respond a certain way - and therefore identifying subpopulations that may benefit most from a certain drug [4]. Although the current use of pharmacogenomics is still quite limited due to a continued need for growing knowledge, it will further the development of tailoring drugs to treat a wide range of health problems in the future.
 
 ![](/assets/1-s2.0-S1360138518300827-gr1b2_lrg.jpg)
 [Figure1](https://doi.org/10.1016/j.tplants.2018.03.014). Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme. **Figure by Sotelo-Silveira, Mariana, et al. Trends in Plant Science (2018).**
@@ -131,21 +132,8 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 
 
 
-# Referrence
-[1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.<br>
-
-[2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.<br>
-
-[3] Dekker J, Rippe K, Dekker M, Kleckner N. Capturing chromosome conformation. Science 2002;295(5558):1306–11.<br>
-
-[4] Simonis M, Klous P, Homminga I, Galjaard RJ, Rijkers EJ, Grosveld F, et al. High-res- olution identification of balanced and complex chromosomal rearrangements by 4C technology. Nature Methods 2009;6(11):837–42.<br>
-
-[5] Dostie J, Richmond TA, Arnaout RA, Selzer RR, Lee WL, Honan TA, et al. Chromo- some Conformation Capture Carbon Copy (5C): a massively parallel solution for mapping interactions between genomic elements. Genome Res 2006;16(10): 1299–309.<br>
-
-[6] Lieberman-Aiden E, van Berkum NL, Williams L, Imakaev M, Ragoczy T, Telling A, et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. Science 2009;326(5950):289–93.<br>
-
-[7] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64.<br>
-
-[8] https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx.
-
-
+# References
+[1] https://ghr.nlm.nih.gov/primer/precisionmedicine/definition
+[2] https://ghr.nlm.nih.gov/primer/precisionmedicine/precisionvspersonalized
+[3] https://www.mdpi.com/1999-4923/8/1/8/htm#B1-pharmaceutics-08-00008
+[4] http://nopr.niscair.res.in/handle/123456789/24037
