@@ -1,13 +1,13 @@
 # Precision Medicine 
-1. [Introduction](#1)
+1. [Introduction](#1)<br>
 2. [Pharmacogenomics](#2)<br>
-3. [Precision Medicine in Cancer](#3)
-4. [RNA Detection and Quantification Technologies](#4)
+3. [Precision Medicine in Cancer](#3)<br>
+4. [RNA Detection and Quantification Technologies](#4)<br>
     4.1. [Northern Blot](#41)<br>
     4.2. [RT-qPCR](#42)<br>
     4.3. [Hybridization based microarrays](#43)<br>
     4.4. [RNA-seq](#44)<br>
-5. [Gene Expression Assays in Medicine](#5)
+5. [Gene Expression Assays in Medicine](#5)<br>
 
 
 
