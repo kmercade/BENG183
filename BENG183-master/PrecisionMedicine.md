@@ -133,7 +133,7 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 
 
 # References
-[1] https://ghr.nlm.nih.gov/primer/precisionmedicine/definition
-[2] https://ghr.nlm.nih.gov/primer/precisionmedicine/precisionvspersonalized
-[3] https://www.mdpi.com/1999-4923/8/1/8/htm#B1-pharmaceutics-08-00008
+[1] https://ghr.nlm.nih.gov/primer/precisionmedicine/definition<br>
+[2] https://ghr.nlm.nih.gov/primer/precisionmedicine/precisionvspersonalized<br>
+[3] https://www.mdpi.com/1999-4923/8/1/8/htm#B1-pharmaceutics-08-00008<br>
 [4] http://nopr.niscair.res.in/handle/123456789/24037
