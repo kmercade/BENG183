@@ -34,7 +34,7 @@ Research has been and is currently being done to further scientists' knowledge o
 
 The first forms of breast cancer treatment included removal of the ovaries - which would completely interrupt the hormonal feedback loop, as ovaries produce and release estrogen. However, in the 1970s, it was discovered that this kind of treatment was not necessary for patients with estrogen-receptor positive tumors. Rather these patients could benefit from anti-estrogen agents that block their tumors from receiving the growth-stimulating estrogen. By 1984, with the help of microarrays and gene expression profiling techniques, it was further discovered that some breast cancer patients (approximately 20%) could be characterized by abnormal HER-2 gene expression. Once more, efforts were made to develop targeted drug therapy, leading to the creation of Herceptin for inhibiting the function of the protein produced from this gene. In the 1990's, scientists found that 5% of breast cancer patients inherited genetic defects in genes BRCA1 and BRCA2, causing doctors to begin screening and watching for this mutation in patients. As this timeline shows, precision medicine has allowed for the creation and implementation of treatments that are more effective/beneficial to specific patients based on the characterization of their disease.  
 
-##### Modern Usage<a name="32"></a>
+##### Modern Usage <a name="32"></a>
 
 ###### Types of Treatment<br>
 Current treatments for cancer include a combination of surgery, chemotherapy, radiation therapy, immunotherapy - each meant to be applied under specific conditions of the patient [5]. A common form of precision medicine is providing hormonal therapy based on a patient's gene abnormalities (is there a protein that can be targeted?) or tumor characteristics (does the tumor have hormone receptors that can be blocked?) As the figure below shows, there is a correlation between longer survival and the use of precision medicine.
@@ -42,7 +42,7 @@ Current treatments for cancer include a combination of surgery, chemotherapy, ra
 ![bargraph](https://github.com/kmercade/BENG183/blob/master/BENG183-master/unnamed.png "The Impact of Personalized Medicine on Cancer Survival in Years")<br>
 **Figure 1: The Impact of Personalized Medicine in Cancer Survival in Years [6].** The bar graph is a visual representation of the impact of targeted cancer therapy on survival.
 
-###### Modern Usage<br>
+###### Current Usage<br>
 Since precision medicine is still a growing field, it is not used for most patients today. However, research and clinical trials continue to contribute to current knowledge such that its usage can grow as well. To find out a patient's eligibility for precision medicine, often a biopsy will be ordered to take a sample from the tumor mass which will get sent to testing to determine the tumor's chemical and genetic characteristics.
 
 ###### Economics<br>
