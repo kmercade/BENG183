@@ -90,9 +90,9 @@ With the quantifications obtained using technologies such as the ones previously
 [3] https://www.mdpi.com/1999-4923/8/1/8/htm#B1-pharmaceutics-08-00008<br>
 [4] http://nopr.niscair.res.in/handle/123456789/24037<br>
 [5] https://www.cancer.gov/about-cancer/treatment/types/precision-medicine<br>
-[6] Munoz, J and R Kurzrock, Targeted Therapy in Rare Cancers: Adopting the Orphans<br>
+[6] https://www.nature.com/articles/nrclinonc.2012.160<br>
 [7] http://mmg-233-2014-genetics-genomics.wikia.com/wiki/Northern_Blot<br>
-[8] https://www.thermofisher.com/us/en/home/brands/thermo-scientific/molecular-biology/molecular-biology-learning-center/molecular-biology-resource-library/spotlight-articles/basic-principles-rt-qpcr.html
-[9] http://www.3d-gene.com/en/about/chip/chi_003.html
-[10] https://www.labome.com/method/RNA-seq-Using-Next-Generation-Sequencing.html
+[8] https://www.thermofisher.com/us/en/home/brands/thermo-scientific/molecular-biology/molecular-biology-learning-center/molecular-biology-resource-library/spotlight-articles/basic-principles-rt-qpcr.html<br>
+[9] http://www.3d-gene.com/en/about/chip/chi_003.html<br>
+[10] https://www.labome.com/method/RNA-seq-Using-Next-Generation-Sequencing.html<br>
 [11] https://www.pnas.org/content/pnas/98/19/10869.full.pdf
