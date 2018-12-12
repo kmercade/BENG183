@@ -19,7 +19,7 @@ Precision medicine is defined as the act of tailoring medical treatment such tha
 
 To gather a genetic understanding of a patient's disease, various types of data are taken into consideration. This includes the patient's genetic/health history, their response to the disease, and their lifestyle. Each of these factors are significant in understanding how the patient's disease may have developed as well as how it can currently be characterized.
 
-> FAQ: What is the difference between "precison" medicine and "personalized" medicine? "Personalized" was used initially, but this term gave rise to the concern that it would be misinterpreted as using an approach that is unique to _each_ person. However, the idea is not that an individual receives their very own unique treatment; the idea is that targeted therapies are developed based on molecular diagnostics. "Personalized" medicine refers to the practice of handling a patient's care hollistically, while "precision" medicine refers to the science of creating evidence-based medicine [2].
+> FAQ: What is the difference between "precison" medicine and "personalized" medicine?<br>"Personalized" was used initially, but this term gave rise to the concern that it would be misinterpreted as using an approach that is unique to _each_ person. However, the idea is not that an individual receives their very own unique treatment; the idea is that targeted therapies are developed based on molecular diagnostics. "Personalized" medicine currently refers to the practice of handling a patient's care hollistically, while "precision" medicine refers to the science of creating evidence-based medicine [2].
 
 ## Pharmacogenomics<a name="2"></a>
 
