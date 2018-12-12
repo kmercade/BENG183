@@ -40,7 +40,7 @@ The first forms of breast cancer treatment included removal of the ovaries - whi
 Current treatments for cancer include a combination of surgery, chemotherapy, radiation therapy, immunotherapy - each meant to be applied under specific conditions of the patient [5]. A common form of precision medicine is providing hormonal therapy based on a patient's gene abnormalities (is there a protein that can be targeted?) or tumor characteristics (does the tumor have hormone receptors that can be blocked?) As the figure below shows, there is a correlation between longer survival and the use of precision medicine.
 
 ![bargraph](https://github.com/kmercade/BENG183/blob/master/BENG183-master/unnamed.png "The Impact of Personalized Medicine on Cancer Survival in Years")<br>
-**Figure 1: The Impact of Personalized Medicine in Cancer Survival in Years [6].** The bar graph is a visual representation of the impact of targeted cancer therapy on survival.
+**Figure 1: The Impact of Personalized Medicine in Cancer Survival in Years [6].** The bar graph is a visual representation of the impact of targeted cancer therapy on survival.<br>
 
 ###### Current Usage<br>
 Since precision medicine is still a growing field, it is not used for most patients today. However, research and clinical trials continue to contribute to current knowledge such that its usage can grow as well. To find out a patient's eligibility for precision medicine, often a biopsy will be ordered to take a sample from the tumor mass which will get sent to testing to determine the tumor's chemical and genetic characteristics.
@@ -50,25 +50,37 @@ One of the constraints hindering the growth of precision medicine usage is cost.
 
 ## RNA Detection and Quantification Technologies<a name="4"></a> 
 
+So how exactly are we able to "measure" and "classify" a person's disease type? This can be done with the help of various RNA detection and quantification methods. RNA can be used to measure levels of gene expression, and if abnormalities are found in these levels, this can be used to determine specific genes or proteins that may need to be targeted. The key point in precision medicine is that not every person of a certain disease phenotype may have the exact same genetic abnormalities. 
+
 ##### Northern Blot<a name="41"></a>
+![Northern Blot](https://github.com/kmercade/BENG183/blob/master/BENG183-master/latest.jpg "Northern Blot")<br>
+**Figure 2: Northern Blot [7].** Here the process of Northern Blot is displayed, from sample input to just before signal detection.<br>
+
+One method that is used for RNA detection and quantification is the Northern Blot. First, total RNA is extracted from the tissue of interest. mRNA is isolated from total RNA, which is then run through gel electrophoresis to separate the strands by size. These strands are then transferred to a nylon membrane and immobilized. Probes that are designed to be complementary to specific RNA sequences are fluorescently labeled and added so that they may hybridize to their corresponding sequences (if present in the sample). The probe's signal can be detected and used for quantification of that sequence. 
 
 ##### RT-qPCR<a name="42"></a>
+![RT-qPCR](https://github.com/kmercade/BENG183/blob/master/BENG183-master/unnamed.jpg "RT-qPCR")<br>
+**Figure 3: RT-qPCR [8].** Here the process of RT-qPCR is displayed, from sample input to just before signal detection. <br>
+
+Another method is reverse transcription quantitative polymerase chain reactioin (RT-qPCR). First, reverse transcription is conducted to synthesize cDNA from the RNA sample, which is then used as template for PCR to amplify the sequence of interest. In this case, quantitative PCR is used so that the amount of product is quantified with each step by way of fluorescent signaling detection. Several fluorescent methods may be used, but a common one is the use of Sybr Green, which binds double stranded DNA by intercalating between the bases and emits green light. The process of RT-qPCR can be repeated for various samples to compare the amounts of desired product detected. 
 
 ##### Hybridization based microarrays<a name="43"></a>
+![Hybridization based microarrays](https://github.com/kmercade/BENG183/blob/master/BENG183-master/chi_003_01.gif "Hybridization based microarrays")<br>
+**Figure 4: Hybridization based microarrays [9].** Here the process of hybridization based microarrays is displayed, from sample input to signal detection.<br>
+
+There's also hybridization based microarrays. It also utilizes reverse transcription to create cDNA from RNA. The cDNA strands are then fluorescently labeled and added to a microarray containing spots with sequences of known genes. If expression of these genes are present in the sample, there will be cDNA strands that hybridize in those spots. Detection of fluorescent signaling levels in each spot is used to create a gene expression profile. 
 
 ##### RNA-seq<a name="44"></a>
+![RNA-seq](https://github.com/kmercade/BENG183/blob/master/BENG183-master/te-203-4.png "RNA-seq")<br>
+**Figure 5: RNA-seq [10].** Here the process of RNA-seq is displayed, from sequence preparation to just before sequencing.<br>
 
+Finally, the more recent technology being used for RNA quantification is RNA-seq. Sample preparation involves isolation, fragmentation, and size selection of mRNA. cDNA is once again synthesized and prepared for sequencing by ligating adapters to the ends of the strands, which will hybridize to sequences on a flow cell for further amplification and sequencing of the template. Expression is quantified by counting the number of reads that map to each gene, which can then be compared between samples to identify differences in gene expression. In contrast to the previous technologies mentioned, RNA-seq is not limited to detecting only a certain set of known genes because it can account for all transcripts in the cell for each condition. In other words, this process is not dependent on sequence-specific primers or probes. 
 
 ## Gene Expression Assays in Medicine<a name="5"></a> 
+![Gene expression patterns of breast carcinoma](https://github.com/kmercade/BENG183/blob/master/BENG183-master/Screen%20Shot%202018-11-26%20at%206.36.46%20PM.png "Gene expression patterns of breast carcinoma")<br>
+**Figure 6: Gene expression patterns of breast carcinoma [11].** Displayed is a heatmap showcasing gene expression patterns among various breast cancer patients.<br>
 
-
-
-
-
-
-
-
-
+With the quantifications obtained using technologies such as the ones previously discussed, gene expression assays can be done to analyze and capture gene expression patterns. Depictions can be created, such as the one shown in the figure above, to help identify patterns for classifying different subtypes of a disease. Different patterns may constitute distinct forms of the disease in terms of growth rate, potential to metastasize, and responsiveness to certain treatments. Understanding the genomic and transcriptomic diversity of diseases can ultimately help with better matching therapies for patients, which in the end is the fundamental idea of delivering precision medicine.
 
 
 
@@ -79,3 +91,8 @@ One of the constraints hindering the growth of precision medicine usage is cost.
 [4] http://nopr.niscair.res.in/handle/123456789/24037<br>
 [5] https://www.cancer.gov/about-cancer/treatment/types/precision-medicine<br>
 [6] Munoz, J and R Kurzrock, Targeted Therapy in Rare Cancers: Adopting the Orphans<br>
+[7] http://mmg-233-2014-genetics-genomics.wikia.com/wiki/Northern_Blot<br>
+[8] https://www.thermofisher.com/us/en/home/brands/thermo-scientific/molecular-biology/molecular-biology-learning-center/molecular-biology-resource-library/spotlight-articles/basic-principles-rt-qpcr.html
+[9] http://www.3d-gene.com/en/about/chip/chi_003.html
+[10] https://www.labome.com/method/RNA-seq-Using-Next-Generation-Sequencing.html
+[11] https://www.pnas.org/content/pnas/98/19/10869.full.pdf
