@@ -36,16 +36,16 @@ The first forms of breast cancer treatment included removal of the ovaries - whi
 
 ##### Modern Usage<a name="32"></a>
 
-_Types of Treatment_<br>
+###### Types of Treatment<br>
 Current treatments for cancer include a combination of surgery, chemotherapy, radiation therapy, immunotherapy - each meant to be applied under specific conditions of the patient [5]. A common form of precision medicine is providing hormonal therapy based on a patient's gene abnormalities (is there a protein that can be targeted?) or tumor characteristics (does the tumor have hormone receptors that can be blocked?) As the figure below shows, there is a correlation between longer survival and the use of precision medicine.
 
-![bargraph](https://github.com/kmercade/BENG183/blob/master/BENG183-master/unnamed.png "The Impact of Personalized Medicine on Cancer Survival in Years")
+![bargraph](https://github.com/kmercade/BENG183/blob/master/BENG183-master/unnamed.png "The Impact of Personalized Medicine on Cancer Survival in Years")<br>
 **Figure 1: The Impact of Personalized Medicine in Cancer Survival in Years [6].** The bar graph is a visual representation of the impact of targeted cancer therapy on survival.
 
-_Modern Usage_<br>
+###### Modern Usage<br>
 Since precision medicine is still a growing field, it is not used for most patients today. However, research and clinical trials continue to contribute to current knowledge such that its usage can grow as well. To find out a patient's eligibility for precision medicine, often a biopsy will be ordered to take a sample from the tumor mass which will get sent to testing to determine the tumor's chemical and genetic characteristics.
 
-_Economics_<br>
+###### Economics<br>
 One of the constraints hindering the growth of precision medicine usage is cost. Since it requires many years to develop specific treatments to target certain types of cancer, the treatments often end up being expensive by the time they’re available. However, if patients agree to participate in clinical trials, the cost of testing can be sponsored by the researchers.
 
 ## RNA Detection and Quantification Technologies<a name="4"></a> 
